@@ -6,13 +6,15 @@
 <link  rel = "stylesheet" href = "css.css">
 </head>
 <body>
+  <frame>
 <form  action = "https://60376bfd5435040017722533.mockapi.io/form" method = "post">
 <form  action = "https://60376bfd5435040017722533.mockapi.io/formRej" method = "post">
-<h1> Задать вопрос </h1>
-   <input  type = "name"   pattern = "^ [А-Яа-яЁё \ s \ -] + $" placeholder = "Фамилия Имя Отчество*" class = "textbox" обязательно />
-   <input  type = "tel" pattern = "^ [0-9 \ s \ - +] + $" placeholder = "Телефон*" class = "textbox" обязательно />
-   <input  type = "email" placeholder = "Email" class = "textbox" />
+<h2> Задать вопрос </h2>
+   <input  type = "name"   pattern = "^ [А-Яа-яЁё \ s \ -] + $" placeholder = "Фамилия Имя Отчество*" class = "textbox" "textbox-text" required />
+   <input  type = "tel" pattern = "^ [0-9 \ s \ - +] + $" placeholder = "Телефон*" class = "textbox" "textbox-text" required/>
+   <input  type = "email" placeholder = "Email" class = "textbox" "textbox-text" />
    <input  type = "submit" class = "button" value = "ОТПРАВИТЬ ЗАПРОС"/>
 </form>
+  </frame>
 </body>
 </html>
